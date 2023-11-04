@@ -66,7 +66,7 @@ const DealsofHome = ({ data = [] }) => {
     <Main>
       <Header>
         <h1>Deals of the day</h1>
-        <Button ><Link style={{textDecoration:"none" , backgroundColor:"#FF9130"}} to={`/${x}` }     >View all</Link></Button>
+        <Button ><Link style={{textDecoration:"none" , backgroundColor:"#FF9130" , color:"black"}} to={`/${x}` }     >View all</Link></Button>
       </Header>
 
       <Picture>
